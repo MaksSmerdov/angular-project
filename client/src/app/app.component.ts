@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true, // Указываем, что компонент standalone
-  imports: [RouterOutlet], // Импорты для компонента
+  standalone: true, // Объявляем компонент standalone
+  imports: [RouterModule], // Добавляем RouterModule
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title: string = 'Добро пожаловать в Angular!';
+  title = 'client';
 }
