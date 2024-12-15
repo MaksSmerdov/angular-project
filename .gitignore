@@ -1,0 +1,10 @@
+# Node.js
+server/node_modules/
+
+# Angular
+client/node_modules/
+client/.angular/
+
+# Общие системные файлы
+.env
+.DS_Store
