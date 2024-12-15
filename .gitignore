@@ -5,6 +5,8 @@ server/node_modules/
 client/node_modules/
 client/.angular/
 
-# Общие системные файлы
-.env
+# IDE и системные файлы
+*.log
 .DS_Store
+.vscode/
+.env
